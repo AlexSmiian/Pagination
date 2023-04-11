@@ -6,6 +6,8 @@ body{
 }
 .wrapper{
 	padding: 10px 0 30px 0;
+	min-height: auto;
+	overflow: scroll;
 }
 .card{
 	display: flex;
@@ -50,6 +52,7 @@ body{
 .btn_container{
 	display: flex;
   justify-content: center;
+	margin-bottom: 50px;
 }
 .hide{
 	display: none;
